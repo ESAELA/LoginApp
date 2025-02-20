@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+@theme {
+  --spacing-espacamento-600: 600px;
+  --spacing-espacamento-550: 530px;  
+  
+}
+
+
+@layer components {
+    .btn-signin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 27px;
+        cursor: pointer;
+        width: 70px;
+        height: 70px;
+        border: 2px solid rgb(168, 167, 167); 
+    }
+
+    .flex-components {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .input-components {
+        text-transform: uppercase;
+        width: 100%;
+        padding: 10px;
+        background-color: var(--color-gray-100);
+        font-size: 13px;
+    }
+  }
