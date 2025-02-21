@@ -1,3 +1,7 @@
+import Icon from '@mdi/react';
+import { mdiAccount } from '@mdi/js';
+import { mdiLockCheck } from '@mdi/js';
+
 function Recovery () {
     return (
         <div className="recovery-bgcolor h-screen w-screen flex justify-center items-center">
@@ -20,6 +24,7 @@ function Recovery () {
     
                 <div className="flex flex-row justify-center gap-10">
                     <div className="recovery-divs">
+                        <Icon path={mdiAccount} size={1} /> 
                         <h2>
                             Esqueçeu o seu nome do úsuario?
                         </h2>
@@ -28,6 +33,7 @@ function Recovery () {
                         </p>
                     </div>
                     <div className="recovery-divs">
+                        <Icon path={mdiLockCheck} size={1} />
                         <h2>
                             Esqueçeu a sua senha?
                         </h2>
