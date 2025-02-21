@@ -21,27 +21,32 @@ function Recovery () {
                     </div>
                 </div>
                 
-    
-                <div className="flex flex-row justify-center gap-10">
-                    <div className="recovery-divs">
-                        <Icon path={mdiAccount} size={1} /> 
-                        <h2>
-                            Esqueçeu o seu nome do úsuario?
-                        </h2>
-                        <p>
-                            Solicite um lembrete que será enviado para o teu e-mail.
-                        </p>
+                    <div className="recovery-div">
+                        <a className="recovery-divs gap-5 rounded-md shadow-xl transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
+                            <Icon path={mdiAccount} size={5} /> 
+                            <span className='w-70 h-40 gap-2 flex flex-col'>
+                                <h2 className='text-2xl font-bold'>
+                                    Esqueçeu o nome do úsuario?
+                                </h2>
+                                <p className='text-[23px] text-center text-gray-600'>
+                                    Solicite um link para redifinir nova senha aqui.
+                                </p>
+                            </span>
+                        </a>
+                        <a className="recovery-divs gap-5 rounded-md shadow-xl transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
+                            <Icon path={mdiLockCheck} size={5} />
+                            <span className='w-70 h-40 gap-2 flex flex-col'>
+                                <h2 className='text-2xl font-bold'>
+                                    Esqueçeu a sua senha?
+                                </h2>
+                                <p className='text-[23px] text-center text-gray-600'>
+                                    Caso tenha esquecido a sua senha, pode redifini-la aqui.
+                                </p>
+                            </span>
+                        </a>
                     </div>
-                    <div className="recovery-divs">
-                        <Icon path={mdiLockCheck} size={1} />
-                        <h2>
-                            Esqueçeu a sua senha?
-                        </h2>
-                        <p>
-                            Caso tenha esquecido a sua senha, pode redifini-la aqui.
-                        </p>
-                    </div>
-                </div>
+                
+                
 
             </form>
         </div>
