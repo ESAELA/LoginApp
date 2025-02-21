@@ -4,7 +4,7 @@ import { mdiLockCheck } from '@mdi/js';
 
 function Recovery () {
     return (
-        <div className="recovery-bgcolor h-screen w-screen flex justify-center items-center">
+        <div className="recovery-bgcolor h-screen w-screen flex justify-center items-center bg-[url(src/img/bg-recovery.jpg)] bg-center bg-cover bg-no-repeat">
             
             <form className="form-components p-10 flex flex-col gap-10">
 
