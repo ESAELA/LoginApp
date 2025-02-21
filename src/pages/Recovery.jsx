@@ -2,15 +2,15 @@ function Recovery () {
     return (
         <div className="recovery-bgcolor h-screen w-screen flex justify-center items-center">
             
-            <form className="form-component s p-10 flex flex-col gap-10 bg-amber-600">
+            <form className="form-components p-10 flex flex-col gap-10">
 
                 <div className="flex flex-col gap-10 justify-center items-center">
-                    <div className="form-primarydiv bg-red-200">
+                    <div className="form-primarydiv">
                         <h3 className="">
                             Não consegue entrar?
                         </h3>
                     </div>
-                    <div className="form-secondarydiv bg-amber-500">
+                    <div className="form-secondarydiv">
                         <p className="text-center"> 
                             Há alguns motivos pelos quais você pode não conseguir fazer login. Verifique as opções abaixo para possíveis soluções.
                         </p>
@@ -36,7 +36,7 @@ function Recovery () {
                         </p>
                     </div>
                 </div>
-                
+
             </form>
         </div>
     ) 
