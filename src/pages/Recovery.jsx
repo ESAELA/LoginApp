@@ -2,16 +2,21 @@ function Recovery () {
     return (
         <div className="recovery-bgcolor h-screen w-screen flex justify-center items-center">
             
-            <div className="bg-green-400 w-">
-                <h2 className="text-8xl text-white text-center uppercase">
-                    Não consegue entrar?
-                </h2>
-                <p id='paragrado-secondary' className="text-center"> 
-                    Há alguns motivos pelos quais você pode não conseguir fazer login. Verifique as opções abaixo para possíveis soluções.
-                </p>
-
+            <form className="form-components p-10 flex flex-col gap-10">
+                
+                <div className="flex justify-center">
+                    <h3 className="text-center form-primarydiv">
+                        Não consegue entrar?
+                    </h3>
+                </div>
+                <div className="flex justify-center">
+                    <p id='paragrado-secondary' className="text-center form-secondarydiv"> 
+                        Há alguns motivos pelos quais você pode não conseguir fazer login. Verifique as opções abaixo para possíveis soluções.
+                    </p>
+                </div>
+    
                 <div className="flex justify-center gap-10">
-                    <div className="recovery-grid">
+                    <div className="recovery-divs">
                         <h2>
                             Esqueçeu o seu nome do úsuario?
                         </h2>
@@ -19,7 +24,7 @@ function Recovery () {
                             Solicite um lembrete que será enviado para o teu e-mail.
                         </p>
                     </div>
-                    <div className="recovery-grid">
+                    <div className="recovery-divs">
                         <h2>
                             Esqueçeu a sua senha?
                         </h2>
@@ -28,7 +33,7 @@ function Recovery () {
                         </p>
                     </div>
                 </div>
-            </div>
+            </form>
         </div>
     ) 
 }

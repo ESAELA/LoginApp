@@ -38,11 +38,37 @@
        background-color: #398ef0;
     }
 
-    .recovery-grid {
+    .recovery-divs {
         background-color: #ffff;
         width: 300px;
         height: 200px;
 
+     }
+
+     .form-components {
+        width: 1500px;
+        height: 800px;
+     }
+
+     .form-primarydiv {
+        color: #ffff;
+        font-size: 100px;
+        width: 1170px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+     }
+
+     .form-secondarydiv {
+        font-size: 30px;
+        width: 750px;
+        height: 150px;
+        color: #ffff;
+        display: flex;
+        align-items: center;
      }
 
   }
