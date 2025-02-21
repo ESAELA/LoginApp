@@ -8,7 +8,7 @@ function Login () {
             <form className="w-espacamento-600 h-92 bg-white flex flex-col items-center justify-center gap-2 shadow-xl" action="">
                 <div className="w-espacamento-550 h-80 flex flex-col items-center justify-center gap-5">
                     <div className="mb-5 font-bold">
-                        <h2>Sign In</h2>
+                        <h2>Entrar</h2>
                     </div>
                     
                     <input type="email" name="" id="" placeholder="Username" className="input-components"/>
@@ -24,10 +24,10 @@ function Login () {
                         </div>
                         <div className="flex-components mt-3 text-gray-500 ">
                             <a href="recovery" className='hover:text-black'>
-                                Can't sign in?
+                                Não consegue entrar?
                             </a>
                             <a href="register" className='hover:text-black'>
-                                Create account
+                                Criar uma conta
                             </a>
                     </div>
                 </div>

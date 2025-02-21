@@ -33,4 +33,16 @@
         background-color: var(--color-gray-100);
         font-size: 13px;
     }
+
+    .recovery-bgcolor {
+       background-color: #398ef0;
+    }
+
+    .recovery-grid {
+        background-color: #ffff;
+        width: 300px;
+        height: 200px;
+
+     }
+
   }
