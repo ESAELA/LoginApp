@@ -4,11 +4,11 @@ import { mdiArrowRight } from '@mdi/js';
 
 function Login () {
     return (
-       <div className="h-screen w-screen bg-gray-300 flex justify-center items-center bg-[url(src/img/ff.jpg)] bg-center bg-cover bg-no-repeat">
+       <div className="h-screen w-screen flex justify-center items-center bg-[url(src/img/ff.jpg)] bg-center bg-cover bg-no-repeat">
             <form className="w-espacamento-600 h-92 bg-white flex flex-col items-center justify-center gap-2 shadow-xl" action="">
                 <div className="w-espacamento-550 h-80 flex flex-col items-center justify-center gap-5">
                     <div className="mb-5 font-bold">
-                        <h2>Entrar</h2>
+                        <h2 className='uppercase'>Entrar</h2>
                     </div>
                     
                     <input type="email" name="" id="" placeholder="Username" className="input-components"/>

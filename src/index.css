@@ -29,7 +29,7 @@
     .input-components {
         text-transform: uppercase;
         width: 100%;
-        padding: 10px;
+        padding: 10px 20px;
         background-color: var(--color-gray-100);
         font-size: 13px;
     }
@@ -83,6 +83,23 @@
         display: flex;
         align-items: center;
         
+     }
+
+     .register-bg {
+        background-color: #196ba1;
+     }
+
+     .register-input {
+        border: 2px solid #05385a;
+        border-radius: 25px;
+        padding: 10px 20px;
+        width: 100%;
+        outline: none;
+        transition: .2s;
+     }
+
+     .register-border {
+       border: #05385a
      }
 
   }
