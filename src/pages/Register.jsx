@@ -4,8 +4,18 @@ import { mdiArrowRight } from '@mdi/js';
 
 function Register () {
     return (
-        <div className="h-screen w-screen register-bg flex flex-col justify-center items-center">
-            <form action="" className="flex flex-col gap-5">
+        <div className="h-screen w-screen register-bg flex justify-center items-center bg-[url(src/img/bg-register.jpg)] bg-center bg-cover bg-no-repeat">
+            
+            <div className='register-group flex justify-between'>
+
+               <div className=''>
+                <h2 className=''>
+                    Criar uma conta
+                </h2>
+               </div>
+
+
+               <form action="" className="flex flex-col gap-5">
                 <h2 className="text-white uppercase text-4xl ml-4 font-bold">Registro</h2>
                 <div className="flex flex-col justify-center items-center gap-5 w-70">
                     <input className="register-input focus:border-blue-300" ltype="email" name="" id="" placeholder="E-mail" />
@@ -24,10 +34,12 @@ function Register () {
                     </div>
 
                     <div className="register-input text-center focus:border-blue-300 uppercase ">
-                        <a href="login">Já tenho uma conta</a>
+                        <a className='text-white' href="login">Já tenho uma conta</a>
                     </div>
                 </div>
             </form>
+            </div>
+
         </div>
     ) 
 }

@@ -101,5 +101,10 @@
      .register-border {
        border: #05385a
      }
-
+    
+     .register-group {
+        width: 1600px;
+        height: 800px;
+      }
+ 
   }
