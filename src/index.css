@@ -104,7 +104,31 @@
     
      .register-group {
         width: 1600px;
-        height: 800px;
+        height: 600px;
+      }
+
+      .register-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 23rem;
+        height: 600px;
+        background-color: #FFFF;
+
+      }
+
+      .titleregister {
+        width: 505px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+      }
+
+      .titleregister-h2 {
+        font-size: 90px;
+        text-transform: uppercase;
+        color: #ffff;
+        font-weight: bold;
       }
  
   }
