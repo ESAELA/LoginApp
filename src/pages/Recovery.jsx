@@ -22,18 +22,18 @@ function Recovery () {
                 </div>
                 
                     <div className="recovery-div">
-                        <a className="recovery-divs gap-5 rounded-md shadow-xl transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
+                        <a href='forgotusername' className="recovery-divs gap-5 rounded-md shadow-xl transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
                             <Icon path={mdiAccount} size={5} /> 
                             <span className='w-70 h-40 gap-2 flex flex-col'>
                                 <h2 className='text-2xl font-bold'>
                                     Esqueçeu o nome do úsuario?
                                 </h2>
-                                <p className='text-[23px] text-center text-gray-600'>
-                                    Solicite um link para redifinir nova senha aqui.
+                                <p className='text-[20px] text-center text-gray-600'>
+                                    Solicite um lembrete que séra enviado para o teu email aqui.
                                 </p>
                             </span>
                         </a>
-                        <a className="recovery-divs gap-5 rounded-md shadow-xl transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
+                        <a href='forgotpassword' className="recovery-divs gap-5 rounded-md shadow-xl transition duration-200 ease-in-out hover:-translate-y-1 cursor-pointer">
                             <Icon path={mdiLockCheck} size={5} />
                             <span className='w-70 h-40 gap-2 flex flex-col'>
                                 <h2 className='text-2xl font-bold'>
