@@ -30,7 +30,7 @@ function ForgotUserName () {
                                             color="gray"
                                             />  
                             </div>
-                            <div>
+                            <div className='forgotusername-a'>
                                 <a className='font-bold uppercase' href="forgotpassword">Esqueçeu a sua senha?</a>
                             </div>
                         </div>

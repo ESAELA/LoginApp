@@ -88,12 +88,12 @@
      }
 
      .register-input {
-        border: 2px solid #05385a;
+      background-color: var(--color-gray-100);
         border-radius: 3px;
         padding: 10px 20px;
         width: 100%;
-        outline: none;
         transition: .2s;
+        text-transform: uppercase;
      }
 
      .register-border {
@@ -109,8 +109,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 23rem;
-        height: 600px;
+        width: 27rem;
+        height: 550px;
         background-color: #FFFF;
 
       }
@@ -121,7 +121,7 @@
         display: flex;
         align-items: center;
         letter-spacing: 0.1rem;
-        line-height: 80px;
+        line-height: 75px;
       }
 
       .titleregister-h2 {
@@ -182,5 +182,9 @@
       .forgotusername-titleh2 {
         font-size: 75px;
       }
+
+      .forgotusername-a {
+         letter-spacing: 0.1rem;
+       }
  
   }
