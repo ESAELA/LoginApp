@@ -4,7 +4,7 @@ import { mdiArrowRight } from '@mdi/js';
 
 function Login () {
     return (
-       <div className="h-screen w-screen flex justify-center items-center bg-[url(src/img/ff.jpg)] bg-center bg-cover bg-no-repeat">
+       <div className=" register-bg h-screen w-screen flex justify-center items-center ">
             <form className="w-espacamento-600 h-92 bg-white flex flex-col items-center justify-center gap-2 shadow-xl" action="">
                 <div className="w-espacamento-550 h-80 flex flex-col items-center justify-center gap-5">
                     <div className="mb-5 font-bold">

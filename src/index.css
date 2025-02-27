@@ -1,10 +1,8 @@
 @import "tailwindcss";
 
-
 @theme {
   --spacing-espacamento-600: 600px;
   --spacing-espacamento-550: 530px;  
-  
 }
 
 
@@ -91,7 +89,7 @@
 
      .register-input {
         border: 2px solid #05385a;
-        border-radius: 25px;
+        border-radius: 3px;
         padding: 10px 20px;
         width: 100%;
         outline: none;
@@ -125,10 +123,10 @@
       }
 
       .titleregister-h2 {
-        font-size: 90px;
+        font-size: 86px;
         text-transform: uppercase;
         color: #ffff;
-        font-weight: bold;
+        
       }
  
   }
